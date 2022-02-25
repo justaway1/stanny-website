@@ -1,4 +1,5 @@
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,28 @@
     <link rel="stylesheet" href="css/mediaqueries.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Cloud hosting</title>
 </head>
 <body>
 
     <!-- Nav bar location -->
 
-    <div class="navbar">
+    <div class="navbar" id="backtop">
         <div class="container flex">
-            <h1 class="logo">STANNY's beta site</h1>
+            <h1 class="logo">Stanny's Site</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="features.html">Features</a></li>
                     <li><a href="docs.html">Docs</a></li>
+<<<<<<< HEAD
                     <li><a href="docs.html">Docs</a></li>
                     <li><a href="docs.html">Docs</a></li>
+=======
+                    <li><a href="#cloud-section">Cloud</a></li>
+>>>>>>> master
                 </ul>
             </nav>
         </div>
@@ -48,9 +55,9 @@
                     <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                         <input type="hidden" name="form-name" value="contact">
                         <p class="hidden">
-                            <label>
-                              Don’t fill this out if you’re human: <input name="bot-field" />
-                            </label>
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" />
+    </label>
                         <div class="form-control">
                             <input type="text" name="Name" placeholder="Name" required>
                         </div>
@@ -110,7 +117,7 @@
 
     <!-- Section Cloud -->
 
-    <section class="cloud bg-primary my-2 py-2">
+    <section class="cloud bg-primary my-2 py-2" id="cloud-section">
         <div class="container grid">
             <div class="text-center">
                 <h2 class="lg">Extreme Cloud Service</h2>
@@ -187,10 +194,10 @@
                 <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
                 <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#backtop"><i class="fa-solid fa-arrow-up fa-3x"></i></a>
             </div>
         </div>
     </footer>
-
 
 
 
